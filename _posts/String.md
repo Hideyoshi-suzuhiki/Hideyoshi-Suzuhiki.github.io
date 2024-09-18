@@ -10,13 +10,13 @@ tags:
     - stl
 ---
 
-##前言
+# 前言
 因为学了String的相关内容,于是打算在这里更新学习过程中的一些体会
 
-##正文
+# 正文
 String是C++的一个类,用来表示字符序列(怎么感觉这是废话)
 
-##String的构造
+# String的构造
 根据C++标准库,可以看到String的构造方法
 
 ```
@@ -36,7 +36,7 @@ string  (InputIterator first, InputIterator last);
 
 ```
 
-##写点String的函数的用法
+# 写点String的函数的用法
 `size` 用来返回字符串长度
 `max_size` 这个返回字符串最大长度,这个最大长度往往和操作系统以及编译器有关
 `resize` 顾名思义,重新调整rize的大小
